@@ -11,12 +11,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="inicio.html">Início</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="consulta.html">Consulta</a></li>
+                <li><a href="inicio.php">Início</a></li>
+                <li><a href="planos.php">Planos</a></li>
+                <li><a href="regioes.php">Regiões</a></li>
             </ul>
         </nav>
     </header>
-        <h1>Dados empresariais</h1>
 </body>
 </html>

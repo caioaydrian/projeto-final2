@@ -2,4 +2,8 @@ ideias para projeto 2: banco de dados
 
 lfg:
 
-sistema que cria automaticamente uma listagem de clientes (mlg/w/clt/cor) onde exibe o retorno mensal especifico desses clientes pelo SGP
+sistema apresentando a empresa com sobre, detalhes de planos e regiões que atendem
+
+fazer um sistema de busca de regiões em que fica carregando apenas a parte de busca e a tela do sistema fica funcionando normalmente
+
+criar uma parte, utilizando banco de dados, onde apresente os equipamentos que compoem uma instalação (antena, roteador, filtro)
