@@ -7,3 +7,12 @@ sistema apresentando a empresa com sobre, detalhes de planos e regiões que aten
 fazer um sistema de busca de regiões em que fica carregando apenas a parte de busca e a tela do sistema fica funcionando normalmente
 
 criar uma parte, utilizando banco de dados, onde apresente os equipamentos que compoem uma instalação (antena, roteador, filtro)
+
+
+salão tia Lu:
+
+sistema mostrando sobre o salão, os tipos de unha que faz, as cores dos esmaltes e os demais conteudos que o salão oferece.
+
+esse sistema sera para apresentar o salão e poder agendar os tipos de serviços
+
+conteudo: preços, tipos de atendimento, cores e tipos de decoração na unha, calendario com agenda aberta e fechada

@@ -2,13 +2,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(187, 187, 187);
+    background-color: rgba(255, 128, 177, 0.759);
     padding: 0;
     margin: 0;
 }
 
-.dark-mode header {
-    background-color: rgb(34, 34, 34);
+.logo {
+    width: 120px;
+    height: auto;
+    margin-right: 5px;
 }
 
 nav ul {
@@ -20,20 +22,53 @@ nav ul {
     padding: 0;
 }
 
+header nav {
+    width: 100%;
+}
 
-header nav li{
+header nav li:first-child {
+    margin-right: auto;
+}
+
+header nav li {
     display: inline-block;
-    margin-right: 1rem;
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
-header nav li a{
+header nav li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
 
-header nav li a:hover{
+header nav li a:hover {
     color: hsl(14, 100%, 46%);
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header {
+        nav li:first-child {
+            margin-right: 0;
+        }
+
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        max-width: 80px;
+    }
 }
