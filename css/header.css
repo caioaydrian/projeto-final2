@@ -1,10 +1,10 @@
 header {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 128, 177, 0.759);
-    padding: 0;
-    margin: 0;
 }
 
 .logo {
