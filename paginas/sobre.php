@@ -16,7 +16,7 @@
             </div>
             <div class="col">
                 <img src="imagens/mesa.jpg" alt="Mesa">
-                <p class="text-center">Cama para depilação</p>
+                <p class="text-center">Mesa para depilação</p>
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/global.css">
 
     <?php if (isset($css_especifico)) {
-        echo '<link rel="stylesheet" href="css/' . $css_especifico . '.css">';
+        echo '<link rel="stylesheet" href="css/' . $css_especifico . '">';
     } ?>
 
     <title>Lu Fashion Hair</title>
