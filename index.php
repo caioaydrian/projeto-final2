@@ -8,7 +8,7 @@ include "templates/header.php";
 $rotas = [
     "inicio" => "paginas/inicio.php",
     "servicos" => "paginas/servicos.php",
-    "sobre" => "paginas/sobre.php"
+    "espaco" => "paginas/espaco.php"
 ];
 
 if (array_key_exists($pagina, $rotas)) {

@@ -1,0 +1,49 @@
+body {
+    background-image: url("../imagens/bg-escuro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.agenda {
+    padding: 15px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+div {
+    div {
+        div {
+            div {
+                h1 {
+                    font: 40px playfair display, Arial;
+                }
+
+                h2 {
+                    font: 25px italic;
+                }
+
+                p {
+                    font: 20px lighter;
+                }
+            }
+        }
+    }
+}
+
+.local {
+    padding: 15px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.layout {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}

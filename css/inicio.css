@@ -2,3 +2,53 @@
     margin-top: 20px;
     padding: 0 16px;
 }
+
+.comeco {
+    h1 {
+        text-decoration: underline;
+        font-size: 30px;
+        font-family: dancing script, Arial;
+    }
+
+    p {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}
+
+section.utensilios {
+    width: 500px fit-content;
+    height: auto;
+}
+
+section.sobre {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: crimson;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+section.sobre img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+section.sobre .sobre-texto {
+    flex: 1;
+    min-width: 280px;
+}
+
+section.sobre h2 {
+    font: 30px playfair display, Arial;
+}
+
+section.sobre p {
+    font-size: 20px;
+    margin: 0;
+}

@@ -16,3 +16,15 @@ sistema mostrando sobre o salão, os tipos de unha que faz, as cores dos esmalte
 esse sistema sera para apresentar o salão e poder agendar os tipos de serviços
 
 conteudo: preços, tipos de atendimento, cores e tipos de decoração na unha, calendario com agenda aberta e fechada
+
+
+COISAS PARA ADICIONAR:
+
+dentro do home:
+equipamentos
+
+
+dentro do sobre:
+horário de atendimento;
+localização;
+contatos
