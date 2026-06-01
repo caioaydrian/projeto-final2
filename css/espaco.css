@@ -1,5 +1,5 @@
 body {
-    background-image: url("../imagens/bg-escuro.jpg");
+    background-image: url("../imagens/Design.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -10,7 +10,7 @@ body {
     padding: 15px;
     margin-top: 50px;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-bottom: 50px;
 }
 
@@ -34,16 +34,20 @@ div {
     }
 }
 
+.mapa {
+    border-radius: 20px;
+}
+
 .local {
     padding: 15px;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-bottom: 50px;
 }
 
 .layout {
     padding: 10px;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-bottom: 50px;
 }

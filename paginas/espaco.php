@@ -1,5 +1,5 @@
 <main>
-    <section class="agenda container text-center">
+    <section class="agenda container text-center h-100 shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
         <h1>Agende seu Horário</h1>
         <a href="https://wa.me/554497121771" target="_blank" rel="noopener noreferrer" class="btn btn-success d-inline-flex align-items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -8,12 +8,12 @@
             WhatsApp
         </a>
     </section>
-    <section class="local container text-center">
+    <section class="local container text-center h-100 shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
         <div class="row g-0 bg-body-secondary position-relative">
             <div class="col-md-6 mb-md-0 p-md-4">
                 <img src="../imagens/frente.jpg" class="w-100" alt="Frente Salão">
             </div>
-            <div class="col-md-6 p-4 ps-md-0">
+            <div class="mapa col-md-6 p-4 ps-md-0">
                 <h5 class="mt-0">Localização</h5>
                 <p>Estamos localizados na R. Pedro da Veiga, 1429 - Jardim Fortunato Perdoncini</p>
                 <a href="https://maps.app.goo.gl/C5qGPFq65LpYQtGEA" class="stretched-link">Visite-Nos</a>
@@ -23,7 +23,7 @@
     <section>
         <div>
             <div>
-                <div class="layout container text-center">
+                <div class="layout container text-center h-100 shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
                     <div class="atendimento">
                         <h1>Horário de funcionamento</h1>
 
@@ -31,7 +31,7 @@
 
                         <p>Fechado</p>
 
-                        <h2>Terça Feira - Sexta Feira</h2>
+                        <h2>TERÇA À SEXTA</h2>
 
                         <p>09:00 -18:00</p>
 

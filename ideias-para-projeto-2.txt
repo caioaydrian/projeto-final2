@@ -20,11 +20,24 @@ conteudo: preços, tipos de atendimento, cores e tipos de decoração na unha, c
 
 COISAS PARA ADICIONAR:
 
+
+header rosa claro com textos preto OU rosa escuro com texto branco
+aumentar os links
+titulos todos centralizados ou na esquerda
+padronizar os border-radius
+padronizar as fontes dos titulos
+
 dentro do home:
-equipamentos
+background padronizado
+aumentar o tamanho do titulo
+margin top nos titulos das section
+equipamentos: trocar a ordem das imagens, maior e menor lado a lado
+container da section vermelha, seguir o padrão
+cor da letra branca ou deixar o fundo mais claro
+footer mema cor do header
 
 
-dentro do sobre:
+dentro do espaço:
 horário de atendimento;
-localização;
+localização: inverter com o horario
 contatos

@@ -9,15 +9,6 @@ main {
     flex-grow: 1;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
-}
-
 img {
     width: 100%;
 }

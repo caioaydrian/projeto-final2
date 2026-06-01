@@ -16,7 +16,7 @@ $lista_servicos = [
 
         <?php foreach ($lista_servicos as $servico): ?>
             <div class="col">
-                <div class="card h-100 shadow-sm text-center" style="border: 2px solid rgba(255, 128, 177, 0.7);">
+                <div class="card h-100 shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
                     <div class="card-body">
                         <h3 class="card-title"><?php echo $servico['nome']; ?></h3>
                         <p class="card-text fs-4 text-danger fw-bold">

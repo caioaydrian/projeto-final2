@@ -1,12 +1,24 @@
+body {
+    background-image: url("../imagens/Design.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font: 40px dancing script, Arial;
+}
+
 .main-conteudo {
     margin-top: 20px;
     padding: 0 16px;
 }
 
 .comeco {
-    h1 {
+    h2 {
         text-decoration: underline;
-        font-size: 30px;
+        font-size: 60px;
         font-family: dancing script, Arial;
     }
 
@@ -27,7 +39,7 @@ section.sobre {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    background-color: crimson;
+    background-color: rgb(225, 185, 226);
     padding: 20px;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -44,9 +56,6 @@ section.sobre .sobre-texto {
     min-width: 280px;
 }
 
-section.sobre h2 {
-    font: 30px playfair display, Arial;
-}
 
 section.sobre p {
     font-size: 20px;
