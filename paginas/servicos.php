@@ -10,7 +10,7 @@ $lista_servicos = [
 ?>
 
 <main class="container mt-5">
-    <h1 class="text-center mb-5" style="color: black; background-color: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 10px;">Nossos Serviços</h1>
+    <h1 class="text-center">Nossos Serviços</h1>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
 

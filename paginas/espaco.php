@@ -1,5 +1,5 @@
 <main>
-    <section class="agenda container text-center h-100 shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
+    <section class="agenda container text-center shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
         <h1>Agende seu Horário</h1>
         <a href="https://wa.me/554497121771" target="_blank" rel="noopener noreferrer" class="btn btn-success d-inline-flex align-items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
