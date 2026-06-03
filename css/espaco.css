@@ -51,3 +51,8 @@ div {
     border-radius: 20px;
     margin-bottom: 50px;
 }
+
+.frente {
+    width: 80%;
+    height: auto;
+}

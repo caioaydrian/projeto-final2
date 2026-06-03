@@ -11,12 +11,12 @@
     <section class="local container text-center h-100 shadow-sm text-center" style="border: 2px solid rgba(245, 136, 178, 0.7);">
         <div class="row g-0 bg-body-secondary position-relative">
             <div class="col-md-6 mb-md-0 p-md-4">
-                <img src="../imagens/frente.jpg" class="w-100" alt="Frente Salão">
+                <img src="imagens/frente.jpeg" class="frente w-100" alt="Frente Salão">
             </div>
-            <div class="mapa col-md-6 p-4 ps-md-0">
+            <div class="col-md-6 p-4 ps-md-0">
                 <h5 class="mt-0">Localização</h5>
                 <p>Estamos localizados na R. Pedro da Veiga, 1429 - Jardim Fortunato Perdoncini</p>
-                <a href="https://maps.app.goo.gl/C5qGPFq65LpYQtGEA" class="stretched-link">Visite-Nos</a>
+                <a href="https://maps.app.goo.gl/C5qGPFq65LpYQtGEA" class="mapa stretched-link">Visite-Nos</a>
             </div>
         </div>
     </section>

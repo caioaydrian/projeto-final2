@@ -5,3 +5,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
+
+div {
+    border-radius: 20px;
+}
