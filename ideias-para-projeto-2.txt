@@ -21,9 +21,9 @@ conteudo: preços, tipos de atendimento, cores e tipos de decoração na unha, c
 COISAS PARA ADICIONAR:
 
 
-header rosa claro com textos preto OU rosa escuro com texto branco
+header rosa claro com textos preto OU rosa escuro com texto branco 
 aumentar os links
-titulos todos centralizados ou na esquerda
+titulos todos centralizados ou na esquerda 
 padronizar os border-radius
 padronizar as fontes dos titulos
 
@@ -41,3 +41,8 @@ dentro do espaço:
 horário de atendimento;
 localização: inverter com o horario
 contatos
+
+
+MUDANÇAS DE 3-6
+
+header rosa claro com textos preto OU rosa escuro com texto branco

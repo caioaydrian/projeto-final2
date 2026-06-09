@@ -4,11 +4,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 128, 177, 0.759);
+    background-color: rgba(138, 0, 53, 0.759);
 }
 
 .logo {
-    width: 120px;
+    width: 130px;
     height: auto;
     margin-right: 5px;
 }
@@ -37,13 +37,14 @@ header nav li {
 }
 
 header nav li a {
+    font: 24px playfair display, arial;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
 
 header nav li a:hover {
-    color: hsl(14, 100%, 46%);
+    color: hsl(14, 97%, 74%);
 }
 
 @media (max-width: 768px) {

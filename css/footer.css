@@ -1,9 +1,10 @@
 .rodape {
-    background-color: rgba(255, 128, 177, 0.759);
+    background-color: rgba(138, 0, 53, 0.759);
     text-align: center;
     padding: 10px 0;
 }
 
 footer p {
+    color: white;
     margin: 0;
 }

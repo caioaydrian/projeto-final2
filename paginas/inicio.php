@@ -8,26 +8,26 @@
         <div class="container text-center">
             <div class="row row-cols-2">
                 <div class="col">
-                    <img src="imagens/mesa.jpg" alt="Mesa" class="utensilios">
+                    <img src="imagens/mesa.jpg" alt="Mesa" class="utensilios shadow mb-1">
                     <p class="text-center">Mesa para depilação</p>
                 </div>
                 <div class="col">
-                    <img src="imagens/maquina.jpg" alt="Maquina Blindagem esmalte" class="utensilios">
-                    <p class="text-center">Máquina de Blindagem de Esmalte</p>
+                    <img src="imagens/maquina.jpg" alt="Maquina Blindagem esmalte" class="utensilios shadow mb-1">
+                    <p class=" text-center">Máquina de Blindagem de Esmalte</p>
                 </div>
                 <div class="col">
-                    <img src="imagens/depilacao.jpg" alt="Cera de depilação" class="utensilios">
-                    <p class="text-center">Cera de Depilação</p>
+                    <img src="imagens/depilacao.jpg" alt="Cera de depilação" class="utensilios shadow mb-1">
+                    <p class=" text-center">Cera de Depilação</p>
                 </div>
                 <div class="col">
-                    <img src="imagens/esmaltes.jpg" alt="Esmaltes" class="utensilios">
-                    <p class="text-center">Cores de Esmaltes</p>
+                    <img src="imagens/esmaltes.jpg" alt="Esmaltes" class="utensilios shadow mb-1">
+                    <p class=" text-center">Cores de Esmaltes</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="sobre container text-center">
-        <div class="sobre-texto">
+        <div class="sobre-texto px-5">
             <h1>Sobre mim</h1>
             <p class="sobre">Olá! Eu sou Luciana Campanari Silva. Tenho 41 anos, sou casada, mãe de duas filhas maravilhosas e apaixonada pela minha profissão.
 

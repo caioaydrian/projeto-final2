@@ -25,7 +25,7 @@
         <nav>
             <ul>
                 <li>
-                    <img src="imagens/logo-certo.png" alt="Logo do salão" class="logo">
+                    <img src="imagens/logo-novo.png" alt="Logo do salão" class="logo">
                 </li>
                 <li><a href="?paginas=inicio">Home</a></li>
                 <li><a href="?paginas=servicos">Serviços</a></li>
