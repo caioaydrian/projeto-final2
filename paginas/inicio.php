@@ -13,15 +13,15 @@
                 </div>
                 <div class="col">
                     <img src="imagens/maquina.jpg" alt="Maquina Blindagem esmalte" class="utensilios shadow mb-1">
-                    <p class=" text-center">Máquina de Blindagem de Esmalte</p>
+                    <p class="text-center">Máquina de Blindagem de Esmalte</p>
                 </div>
                 <div class="col">
                     <img src="imagens/depilacao.jpg" alt="Cera de depilação" class="utensilios shadow mb-1">
-                    <p class=" text-center">Cera de Depilação</p>
+                    <p class="text-center">Cera de Depilação</p>
                 </div>
                 <div class="col">
                     <img src="imagens/esmaltes.jpg" alt="Esmaltes" class="utensilios shadow mb-1">
-                    <p class=" text-center">Cores de Esmaltes</p>
+                    <p class="text-center">Cores de Esmaltes</p>
                 </div>
             </div>
         </div>
