@@ -1,0 +1,22 @@
+body {
+    background-image: url("../imagens/Design.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-decoration: underline;
+    font: 60px dancing script, Arial;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+div {
+    border-radius: 20px;
+}
+
+.texto {
+    font: 32px italic;
+}

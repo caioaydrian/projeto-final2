@@ -70,3 +70,10 @@ section.sobre p {
     font-size: 20px;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    section.sobre img {
+        width: 100%;
+    }
+
+}

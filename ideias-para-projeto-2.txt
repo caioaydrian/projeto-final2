@@ -46,3 +46,7 @@ contatos
 MUDANÇAS DE 3-6
 
 header rosa claro com textos preto OU rosa escuro com texto branco
+
+
+
+function filtrar clientes por letra no php de clientes

@@ -35,6 +35,6 @@
 
                 Eu acredito que o seu momento de atendimento deve ser o seu momento. Por isso, procuro sempre ouvir, acolher e dar a máxima atenção. Para mim, não se trata apenas de um serviço estético, é uma troca de energias, um cuidado profundo e, muitas vezes, uma verdadeira terapia. Quero que você saia daqui não apenas linda, mas com a alma leve e a autoestima renovada. Será um prazer cuidar de você!</p>
         </div>
-        <img src="imagens/perfil.jpg" alt="Dona do salão">
+        <img src="imagens/perfil.jpg" alt="Dona do salão" class="perfilImagemHero">
     </section>
 </main>
