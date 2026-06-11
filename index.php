@@ -1,7 +1,14 @@
 <?php
+// Essas três linhas aqui é pra ver os erros do php. Peguei com IA porque tava dando problema e eu não sabia o que era, mas é só pra desenvolvimento.
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $pagina = isset($_GET["paginas"]) ? $_GET["paginas"] : "inicio";
 
 $css_especifico = $pagina . ".css";
+
+require_once "config/database.php";
 
 include "templates/header.php";
 

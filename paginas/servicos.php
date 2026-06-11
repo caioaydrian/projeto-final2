@@ -1,11 +1,9 @@
 <?php
-$lista_servicos = [
-    ["nome" => "Corte de Cabelo", "preco" => 50.00],
-    ["nome" => "Coloração", "preco" => 150.00],
-    ["nome" => "Manicure", "preco" => 30.00],
-    ["nome" => "Pedicure", "preco" => 40.00],
-    ["nome" => "Depilação", "preco" => 60.00]
-];
+require_once  "config/database.php";
+
+
+$servicos_query = $pdo->query("SELECT * FROM servico");
+$lista_servicos = $servicos_query->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
@@ -18,9 +16,9 @@ $lista_servicos = [
             <div class="col">
                 <div class="card h-100 shadow-sm text-center" style="border: 1px solid rgba(252, 182, 210, 0.7);">
                     <div class="card-body">
-                        <h3 class="card-title"><?php echo $servico['nome']; ?></h3>
+                        <h3 class="texto card-title"><?php echo $servico['nome']; ?></h3>
                         <p class="card-text fs-4 text-danger fw-bold">
-                            R$ <?php echo number_format($servico['preco'], 2, ',', '.'); ?>
+                            R$ <?php echo number_format($servico['valor'], 2, ',', '.'); ?>
                         </p>
                     </div>
                 </div>

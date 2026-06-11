@@ -16,3 +16,7 @@ h1 {
 div {
     border-radius: 20px;
 }
+
+.texto {
+    font: 32px italic;
+}
