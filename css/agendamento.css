@@ -1,0 +1,50 @@
+body {
+    background-image: url("../imagens/Design.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-decoration: underline;
+    font: 60px dancing script, Arial;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.table {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.table thead th {
+    font-size: 1.3rem;
+    padding: 1.2rem 0.8rem;
+    font-weight: 700;
+    background-color: #f8f9fa;
+    vertical-align: middle;
+}
+
+.table tbody td {
+    padding: 1.1rem 0.8rem;
+    vertical-align: middle;
+    font-size: 1.05rem;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(252, 182, 210, 0.15);
+}
+
+.table-bordered {
+    border: 2px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1.5px solid #dee2e6;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgba(248, 244, 238, 0.5);
+}

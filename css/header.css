@@ -37,7 +37,7 @@ header nav li {
 }
 
 header nav li a {
-    font: 24px playfair display, arial;
+    font: 20px playfair display, arial;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;

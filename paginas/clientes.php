@@ -1,6 +1,5 @@
 <?php
-require_once  "config/database.php";
-
+require_once "config/database.php";
 
 $clientes_query = $pdo->query("SELECT * FROM clientes");
 $lista_clientes = $clientes_query->fetchAll(PDO::FETCH_ASSOC);
@@ -13,25 +12,23 @@ function formatarData(string $data)
 
 ?>
 
-<main class="container mt-5">
-    <h1 class="text-center">Nossos Clientes</h1>
+<main class="container-fluid clientes-main py-5">
+    <section class="container">
+        <h1 class="text-center mb-4">Nossos Clientes</h1>
+        <p class="text-center mb-5">Conheça alguns dos clientes atendidos no Lu Fashion Hair. Aqui estão os dados principais com um visual exclusivo na página de clientes.</p>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-
-        <?php foreach ($lista_clientes as $cliente): ?>
-            <div class="col">
-                <div class="card h-100 shadow-sm text-center" style="border: 1px solid rgba(252, 182, 210, 0.7);">
-                    <div class="card-body">
-                        <h3 class="texto card-title"><?php echo $cliente['nome']; ?></h3>
-                        <p class="card-text fs-5 text-secondary">
-                            <?php echo $cliente['telefone']; ?>
-                        </p>
-                        <p class="card-text fs-5 text-secondary">
-                            <?php echo formatarData($cliente['dt_nasc']); ?>
-                        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <?php foreach ($lista_clientes as $cliente): ?>
+                <div class="col">
+                    <div class="card h-100 shadow-sm text-center clientes-card">
+                        <div class="card-body">
+                            <h3 class="texto card-title"><?php echo htmlspecialchars($cliente['nome']); ?></h3>
+                            <p class="card-text fs-5 text-secondary"><?php echo htmlspecialchars($cliente['telefone']); ?></p>
+                            <p class="card-text fs-5 text-secondary">Nascimento: <?php echo formatarData($cliente['dt_nasc']); ?></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        <?php endforeach; ?>
-    </div>
+            <?php endforeach; ?>
+        </div>
+    </section>
 </main>

@@ -30,6 +30,7 @@
                 <li><a href="?paginas=inicio">Home</a></li>
                 <li><a href="?paginas=servicos">Serviços</a></li>
                 <li><a href="?paginas=clientes">Clientes</a></li>
+                <li><a href="?paginas=agendamento">Agendamento</a></li>
                 <li><a href="?paginas=espaco">Nosso Espaço</a></li>
             </ul>
         </nav>

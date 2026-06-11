@@ -15,6 +15,7 @@ include "templates/header.php";
 $rotas = [
     "inicio" => "paginas/inicio.php",
     "servicos" => "paginas/servicos.php",
+    "agendamento" => "paginas/agendamento.php",
     "clientes" => "paginas/clientes.php",
     "espaco" => "paginas/espaco.php"
 ];

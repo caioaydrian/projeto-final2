@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
 }
 
+
 h1 {
     text-decoration: underline;
     font: 60px dancing script, Arial;
@@ -13,7 +14,8 @@ h1 {
     margin-bottom: 60px;
 }
 
-div {
+.clientes-card {
+    border: 2px solid rgba(252, 182, 210, 0.9);
     border-radius: 20px;
 }
 
