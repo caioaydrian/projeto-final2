@@ -18,16 +18,16 @@ h1 {
 .comeco {
     h2 {
         text-decoration: underline;
-        font-size: 68px;
+        font-size: 76px;
         font-family: dancing script, Arial;
-        margin-bottom: 16px;
+        margin-bottom: 22px;
     }
 
     p {
         line-height: 1.7;
         text-align: justify;
         margin-left: 0px;
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
@@ -67,7 +67,7 @@ section.sobre .sobre-texto {
 section.sobre p {
     line-height: 1.7;
     text-align: justify;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
 }
 

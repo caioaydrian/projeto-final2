@@ -2,9 +2,11 @@
 require_once "config/database.php";
 
 $agendamento_query = $pdo->query(
-    "SELECT a.*, c.nome AS cliente_nome
+    "SELECT a.*, c.nome AS cliente_nome, s.nome AS servico_nome
      FROM agendamento a
      JOIN clientes c ON a.id_clientes = c.id
+     JOIN servico_agendamento sa on sa.id_agendamento = a.id
+     JOIN servico s on sa.id_servico = s.id
      ORDER BY a.data, a.horario"
 );
 $lista_agendamento = $agendamento_query->fetchAll(PDO::FETCH_ASSOC);
@@ -18,6 +20,29 @@ function formatarHorario(string $horario)
 {
     return date("H:i", strtotime($horario));
 }
+
+//juntar os serviços por agendamento
+function agruparServicosPorAgendamento(array $agendamentos)
+{
+    $agendamentoAgrupado = [];
+    foreach ($agendamentos as $agendamento) {
+        $idAgendamento = $agendamento['id'];
+        if (!isset($agendamentoAgrupado[$idAgendamento])) {
+            $agendamentoAgrupado[$idAgendamento] = [
+                'cliente_nome' => $agendamento['cliente_nome'],
+                'data' => $agendamento['data'],
+                'horario' => $agendamento['horario'],
+                'status' => $agendamento['status'],
+                'servicos' => []
+            ];
+        }
+        $agendamentoAgrupado[$idAgendamento]['servicos'][] = $agendamento['servico_nome'];
+    }
+    return array_values($agendamentoAgrupado);
+}
+
+$lista_agendamento = agruparServicosPorAgendamento($lista_agendamento);
+
 ?>
 
 <main class="container-fluid agendamento-main py-5">
@@ -33,6 +58,7 @@ function formatarHorario(string $horario)
                     <thead class="table-light">
                         <tr>
                             <th>Cliente</th>
+                            <th>Serviços</th>
                             <th>Data</th>
                             <th>Horário</th>
                             <th>Status</th>
@@ -42,6 +68,7 @@ function formatarHorario(string $horario)
                         <?php foreach ($lista_agendamento as $agendamento): ?>
                             <tr>
                                 <td><?php echo htmlspecialchars($agendamento['cliente_nome']); ?></td>
+                                <td><?php echo htmlspecialchars(implode(', ', $agendamento['servicos'])); ?></td>
                                 <td><?php echo formatarData($agendamento['data']); ?></td>
                                 <td><?php echo formatarHorario($agendamento['horario']); ?></td>
                                 <td><?php echo htmlspecialchars($agendamento['status']); ?></td>
