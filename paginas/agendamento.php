@@ -48,7 +48,6 @@ $lista_agendamento = agruparServicosPorAgendamento($lista_agendamento);
 <main class="container-fluid agendamento-main py-5">
     <section class="container">
         <h1 class="text-center mb-4">Agenda de Atendimento</h1>
-        <p class="text-center mb-4">Veja abaixo os agendamentos com o nome do cliente, data em D/M/Y, horário em 24h e status do atendimento.</p>
 
         <?php if (empty($lista_agendamento)): ?>
             <p class="text-center">Nenhum agendamento encontrado.</p>

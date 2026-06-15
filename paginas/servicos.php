@@ -60,7 +60,7 @@ $lista_servicos = array_values($lista_servicos);
 <main class="container-fluid servicos-main py-5">
     <section class="container">
         <h1 class="text-center mb-4">Nossos Serviços</h1>
-        <p class="text-center mb-5">Veja os serviços disponíveis no Lu Fashion Hair com um estilo de apresentação diferente da página de clientes.</p>
+        <p class="text-center mb-5">Veja os serviços disponíveis no Lu Fashion Hair.</p>
 
         <!-- Formulário de Filtros -->
         <div class="filtros-container mb-5 p-4 bg-light rounded">

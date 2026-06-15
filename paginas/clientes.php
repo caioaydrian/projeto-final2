@@ -15,7 +15,7 @@ function formatarData(string $data)
 <main class="container-fluid clientes-main py-5">
     <section class="container">
         <h1 class="text-center mb-4">Nossos Clientes</h1>
-        <p class="text-center mb-5">Conheça alguns dos clientes atendidos no Lu Fashion Hair. Aqui estão os dados principais com um visual exclusivo na página de clientes.</p>
+        <p class="text-center mb-5">Conheça alguns dos clientes atendidos no Lu Fashion Hair.</p>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <?php foreach ($lista_clientes as $cliente): ?>
