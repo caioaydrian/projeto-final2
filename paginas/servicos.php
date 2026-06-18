@@ -1,7 +1,7 @@
 <?php
 require_once  "config/database.php";
 
-// Função para extrair categoria do nome do serviço
+//função pra extrair a categoria do nome do serviço
 function extrairCategoria(string $nome)
 {
     if (stripos($nome, 'Depilação') !== false) {
@@ -14,18 +14,18 @@ function extrairCategoria(string $nome)
     return 'Outros';
 }
 
-// Obter todos os serviços
+//trazer todos os serviços
 $servicos_query = $pdo->query("SELECT * FROM servico ORDER BY nome");
 $todos_servicos = $servicos_query->fetchAll(PDO::FETCH_ASSOC);
 
-// Extrair categorias únicas
+//deixar em categoria única
 $categorias = array_unique(array_map('extrairCategoria', array_column($todos_servicos, 'nome')));
 sort($categorias);
 
-// Aplicar filtros
+//aplicar o filtro
 $lista_servicos = $todos_servicos;
 
-// Filtro por categoria
+//filtro por cada categoria
 if (!empty($_GET['categoria'])) {
     $categoria_filtro = $_GET['categoria'];
     $lista_servicos = array_filter($lista_servicos, function ($servico) use ($categoria_filtro) {
@@ -33,7 +33,7 @@ if (!empty($_GET['categoria'])) {
     });
 }
 
-// Filtro por faixa de preço
+//filtro pra faixa de preço
 $faixa_preco = isset($_GET['faixa_preco']) ? $_GET['faixa_preco'] : '';
 
 if (!empty($faixa_preco)) {
@@ -53,7 +53,7 @@ if (!empty($faixa_preco)) {
     }
 }
 
-// Resetar índices do array
+//resetar sequência do array
 $lista_servicos = array_values($lista_servicos);
 ?>
 
