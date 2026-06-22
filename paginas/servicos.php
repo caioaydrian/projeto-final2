@@ -1,7 +1,7 @@
 <?php
 require_once  "config/database.php";
 
-//função pra extrair a categoria do nome do serviço
+//função pra pegar a categoria do nome do serviço
 function extrairCategoria(string $nome)
 {
     if (stripos($nome, 'Depilação') !== false) {

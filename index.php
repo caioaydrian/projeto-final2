@@ -1,5 +1,5 @@
 <?php
-// Essas três linhas aqui é pra ver os erros do php. Peguei com IA porque tava dando problema e eu não sabia o que era, mas é só pra desenvolvimento.
+// Essas três linhas aqui é pra ver os erros do php. Peguei com IA porque tava dando problema e eu não sabia o que era, mas é só pra entendimento meu.
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
